@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/itemId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fullname"/>
+
+
+    <TextView
+        android:id="@+id/itemFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fullname"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/itemPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password" />
+
+    <TextView
+        android:id="@+id/itemPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone" />
+
+    <TextView
+        android:id="@+id/itemEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+</LinearLayout>
